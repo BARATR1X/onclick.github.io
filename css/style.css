@@ -1,0 +1,47 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  width: 680px;
+  height: 360px;
+  background-image: url(../img/parede.jpg);
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+}
+
+.tomada {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  margin-left: 57px;  
+  flex-wrap: wrap;
+}
+
+.botao {
+  width: 100px;
+  padding: 10px;  
+  border: 1px solid white;
+  
+}
+
+.ligar {
+  color: black;
+  background-color: yellow;
+  border-bottom: 5px solid blue;
+}
+
+.desligar {
+  color: white;
+  background-color: black;
+  border-top: 5px solid red;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acender a lampada "Onclick"</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="lampada_ligada.gif" type="image/x-icon">
+</head>
+<body>
+
+  <div class="container">
+    <div>
+
+      <img id="lampada1"  src="img/lampada_desligada.gif">
+      <img id="lampada2"  src="img/lampada_desligada.gif">
+      
+
+    </div>
+    <div class="tomada">
+
+      <button class="botao desligar" onclick="document.querySelector('#lampada1').src='img/lampada_desligada.gif'">Apagar</button>
+      <button class="botao ligar" onclick="document.querySelector('#lampada1').src='img/lampada_ligada.gif'">Acender</button>
+      <br><br>
+      <button class="botao desligar" onclick="document.querySelector('#lampada2').src='img/lampada_desligada.gif'">Apagar</button>
+      <button class="botao ligar" onclick="document.querySelector('#lampada2').src='img/lampada_ligada.gif'">Acender</button>
+      <br><br>
+    </div> 
+    <div class="tomada">  
+      <button class="botao desligar" onclick="document.querySelector('#lampada3').src='img/lampada_desligada.gif'">Apagar</button>
+      <button class="botao ligar" onclick="document.querySelector('#lampada3').src='img/lampada_ligada.gif'">Acender</button>
+      <br><br>
+      <button class="botao desligar" onclick="document.querySelector('#lampada4').src='img/lampada_desligada.gif'">Apagar</button>
+      <button class="botao ligar" onclick="document.querySelector('#lampada4').src='img/lampada_ligada.gif'">Acender</button>
+      <br><br>
+      
+    </div>
+    <div>
+      <img id="lampada3"  src="img/lampada_desligada.gif">
+      <img id="lampada4"  src="img/lampada_desligada.gif">
+    </div>
+    
+</div>
+</body>
+</html>
